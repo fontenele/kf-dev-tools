@@ -1,0 +1,22 @@
+{
+    "name": "kf/kf-dev-tools",
+    "description": "DevTools for KF PHP Framework",
+    "keywords": ["kf", "php", "framework", "tools", "dev"],
+    "homepage": "https://github.com/fontenele/kf-dev-tools",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Guilherme Fontenele",
+            "email": "guilherme@fontenele.net",
+            "homepage": "http://guilherme.fontenele.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": { "KfDevTools": "src/" }
+    }
+}
